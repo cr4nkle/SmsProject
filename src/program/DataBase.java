@@ -1,3 +1,5 @@
+package program;
+
 public class DataBase extends MySQLHelper{
     private static DataBase INSTANCE;
 
