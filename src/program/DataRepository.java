@@ -1,10 +1,10 @@
 package program;
 
-public class DataRepository extends MySQLHelper{
+public class DataRepository extends TestFile{
     private static DataRepository INSTANCE;
 
     private DataRepository(){
-        initDB();
+        //initDB();
     }
 
     public static synchronized DataRepository getInstance(){
