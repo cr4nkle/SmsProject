@@ -6,7 +6,7 @@ public class DataRepository extends TestFile {
     private static DataRepository INSTANCE;
 
     private DataRepository(){
-        //initDB();
+        //init();
     }
 
     public static synchronized DataRepository getInstance(){

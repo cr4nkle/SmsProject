@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class TestFile {
     public String readFile(){
-        System.out.print("Введите имя файла, из которого будет взята строка: ");
+
         String fileString = "C:\\Users\\cr4nk\\OneDrive\\Рабочий стол\\test.txt";
         String tempStr = null;
         try {

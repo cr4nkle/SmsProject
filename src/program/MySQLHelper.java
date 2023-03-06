@@ -11,7 +11,7 @@ public abstract class MySQLHelper {
     private Statement statement;
     private ResultSet resultSet;
 
-    public void initDB(){
+    public void init(){
         try{
             connection = DriverManager.getConnection(url, user, password);
         }catch (SQLException e){
@@ -19,7 +19,7 @@ public abstract class MySQLHelper {
         }
     }
 
-    public void closeDB(){
+    public void close(){
         try {
             connection.close();
         }catch (SQLException e){
