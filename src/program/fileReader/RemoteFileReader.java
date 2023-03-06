@@ -23,4 +23,12 @@ public abstract class RemoteFileReader {
             System.out.println(e.getMessage());
         }
     }
+
+    public void close(){
+        try{
+            reader.close();
+        }catch(IOException e){
+            System.out.println(e.getMessage());
+        }
+    }
 }
