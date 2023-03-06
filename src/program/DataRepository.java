@@ -1,6 +1,8 @@
 package program;
 
-public class DataRepository extends TestFile{
+import program.fileReader.TestFile;
+
+public class DataRepository extends TestFile {
     private static DataRepository INSTANCE;
 
     private DataRepository(){
