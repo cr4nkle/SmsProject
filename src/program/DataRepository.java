@@ -1,9 +1,8 @@
 package program;
 
 import program.fileReader.*;
-import program.fileReader.TestFile;
 
-public class DataRepository extends RemoteFileReader {
+public class DataRepository extends LocalFileReader {
     private static DataRepository INSTANCE;
 
     private DataRepository(){
