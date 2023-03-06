@@ -31,4 +31,13 @@ public abstract class RemoteFileReader {
             System.out.println(e.getMessage());
         }
     }
+
+    public String readFile() throws IOException {
+        String fileValue = null;
+        String inputLine;
+        while ((inputLine = reader.readLine()) != null)
+            fileValue = inputLine;
+        close();
+        return fileValue;
+    }
 }
