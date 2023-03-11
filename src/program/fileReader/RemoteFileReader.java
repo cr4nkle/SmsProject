@@ -33,12 +33,12 @@ public abstract class RemoteFileReader {
     }
 
     public String readFile(){
-        String fileValue = null;
+        String fileValue = "";
         String inputLine;
 
         try{
             while ((inputLine = reader.readLine()) != null)
-                fileValue = inputLine;
+                fileValue += inputLine;
             close();
         }catch(IOException e){
             close();
