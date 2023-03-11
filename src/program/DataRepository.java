@@ -2,7 +2,7 @@ package program;
 
 import program.fileReader.*;
 
-public class DataRepository extends LocalFileReader {
+public class DataRepository extends RemoteFileReader {
     private static DataRepository INSTANCE;
 
     private DataRepository(){

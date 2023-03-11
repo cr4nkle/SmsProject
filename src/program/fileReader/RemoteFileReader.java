@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public abstract class RemoteFileReader {
-    private static final String path = "http://localhost/test.txt";
+    private static final String path = "ftp://adminftp:1234@192.168.1.138/files/test.txt";
     private URL url;
     private BufferedReader reader;
     private InputStreamReader inputStreamReader;
