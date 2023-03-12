@@ -9,8 +9,8 @@ import java.lang.Math;
 
 public class Smsc {
 
-    String SMSC_LOGIN    = "login";     // логин клиента
-    String SMSC_PASSWORD = "password";  // пароль
+    String SMSC_LOGIN    = "Project_INK2";     // логин клиента
+    String SMSC_PASSWORD = "tynNeh-kudxy0-tesxog";  // пароль
     boolean SMSC_HTTPS   = false;         // использовать HTTPS протокол
     String SMSC_CHARSET  = "utf-8";       // кодировка сообщения: koi8-r, windows-1251 или utf-8 (по умолчанию)
     boolean SMSC_DEBUG   = false;         // флаг отладки
